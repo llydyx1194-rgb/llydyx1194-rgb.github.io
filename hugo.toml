@@ -30,3 +30,6 @@ hasCJKLanguage = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[params.analytics.google]
+  SiteVerificationTag = "iAZYJruq37KAaKX6uMMepw79twcQutL3eP1pXRMpHig"
