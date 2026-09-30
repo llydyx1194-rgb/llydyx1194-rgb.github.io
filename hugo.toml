@@ -1,0 +1,32 @@
+baseURL = "https://llydyx1194-rgb.github.io/"
+languageCode = "zh-CN"
+defaultContentLanguage = "zh-cn"
+title = "lenon 的博客"
+theme = "PaperMod"
+paginate = 10
+hasCJKLanguage = true
+
+[params]
+  description = "记录折腾与学习"
+  author = "lenon"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[menu]
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
