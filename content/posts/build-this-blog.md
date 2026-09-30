@@ -64,10 +64,10 @@ hasCJKLanguage = true
 
 ## 踩到的一个小坑
 
-克隆主题时，`git clone` 报了 `Connection was reset`。我的机器常驻一个本地代理，直连 GitHub 不稳定。给这一次命令单独指定代理就好了：
+克隆主题时，`git clone` 报了 `Connection was reset`。在国内直连 GitHub 有时不稳定，如果你有可用的代理，可以只给这一次命令指定：
 
 ```bash
-git -c http.proxy=http://127.0.0.1:10808 clone --depth 1 <主题仓库地址> themes/PaperMod
+git -c http.proxy=http://<代理地址>:<端口> clone --depth 1 <主题仓库地址> themes/PaperMod
 ```
 
 用 `-c` 只对单条命令生效，不需要改全局配置。

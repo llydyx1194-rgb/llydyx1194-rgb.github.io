@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://llydyx1194-rgb.github.io/sitemap.xml
